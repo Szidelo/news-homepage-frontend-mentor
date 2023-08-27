@@ -184,6 +184,7 @@ p {
     letter-spacing: 3px;
     border: none;
     cursor: pointer;
+    user-select: none;
     transition: var(--transition);
 }
 .btn:hover {
@@ -289,6 +290,7 @@ p {
 
     .nav-menu {
         display: block;
+        user-select: none;
     }
 
     .close-menu {
@@ -296,6 +298,7 @@ p {
         position: absolute;
         top: 30px;
         right: 30px;
+        user-select: none;
     }
 
     .main {
